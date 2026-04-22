@@ -1,0 +1,13 @@
+# https://www.robotstxt.org/robotstxt.html
+# Production host: set your Site URL in Webflow; replace below if you use a different domain on EC2.
+
+User-agent: *
+Allow: /
+
+# Error page: optional — remove this line if you want /404.html indexed
+Disallow: /404.html
+
+# CMS utility page (if not meant for public SEO)
+Disallow: /detail_date-changes-cms.html
+
+Sitemap: https://certificates.ccbp.in/sitemap.xml
