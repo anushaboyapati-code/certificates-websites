@@ -4,10 +4,10 @@
 User-agent: *
 Allow: /
 
-# Error page: optional — remove this line if you want /404.html indexed
-Disallow: /404.html
+# Error page: optional — remove this line if you want /404 indexed
+Disallow: /404
 
 # CMS utility page (if not meant for public SEO)
-Disallow: /detail_date-changes-cms.html
+Disallow: /detail_date-changes-cms
 
 Sitemap: https://certificates.ccbp.in/sitemap.xml

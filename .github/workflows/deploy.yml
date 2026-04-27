@@ -22,4 +22,5 @@ jobs:
 
       - name: Deploy to S3
         run: |
+          # In S3 static website config: Error document = 404/index.html (extensionless /404 URL)
           aws s3 sync . s3://${{ secrets.S3_BUCKET }} --delete
